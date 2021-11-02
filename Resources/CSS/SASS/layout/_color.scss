@@ -1,0 +1,34 @@
+.color {
+    text-align: center;
+
+    &__input-area {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        &--area1 {
+            margin: 2rem 5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            label {
+                margin-top: 1rem;
+                text-transform: uppercase;
+            }
+        }
+
+        &--area2 {
+            margin: 2rem 5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            label {
+                margin-top: 1rem;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
